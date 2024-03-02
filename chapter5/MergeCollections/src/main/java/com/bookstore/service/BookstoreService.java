@@ -35,7 +35,7 @@ public class BookstoreService {
         List<Book> booksToRemove  = author.getBooks().stream()
                 .filter(b -> !detachedBooks.contains(b))
                 .collect(Collectors.toList());
-        booksToRemove .forEach(b -> author.removeBook(b));
+        booksToRemove.forEach(b -> author.removeBook(b));
 
         // Update the existing database rows which can be found
         // in the incoming collection (detachedBooks)
