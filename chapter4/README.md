@@ -42,3 +42,5 @@
 
 ## Item 55: Why to Avoid PostgreSQL `(BIG)SERIAL` in Batching Inserts via Hibernate
 - [BatchingAndSerial](BatchingAndSerial)
+> **Note**  
+> 헤당 예제 코드에서는 간단한 테스트를 위해 `increment_size`을 `10`으로 사용했지만, 도서에서는 `1000`으로 설명됩니다. 
