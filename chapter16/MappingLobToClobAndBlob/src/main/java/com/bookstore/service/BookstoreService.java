@@ -44,14 +44,14 @@ public class BookstoreService {
     }
 
     private byte[] readAvatar(Blob avatar) throws SQLException, IOException {
-        try ( InputStream is = avatar.getBinaryStream()) {
+        try (InputStream is = avatar.getBinaryStream()) {
             return is.readAllBytes();
         }
     }
 
     private String readBiography(Clob bio) throws SQLException, IOException {
         StringBuilder sb = new StringBuilder();
-        try ( Reader reader = bio.getCharacterStream()) {
+        try (Reader reader = bio.getCharacterStream()) {
 
             char[] buffer = new char[2048];
             for (int i = reader.read(buffer); i > 0; i = reader.read(buffer)) {
