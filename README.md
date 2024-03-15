@@ -1,18 +1,27 @@
-# Spring Boot Persistence Best Practices 예제 코드
+# <스프링 부트 JPA 모범 사례> 예제 코드
+> 스프링 부트 기반 애플리케이션에서의 JPA 성능 최적화
+
+<img src="./images/cover2.jpg" alt="표지 이미지" width="400"/>
+
+---------------------------------------
+
+## Spring Boot Persistence Best Practices
 > Optimize Java Persistence Performance in Spring Boot Applications
 
 <img src="./images/cover.jpg" alt="Cover Image" width="400"/>
 
-
 ## 소개
-본 repository는 Anghel Leonard의 [Spring Boot Persistence Best Practices: Optimize Java Persistence Performance in Spring Boot](https://www.amazon.com/Spring-Boot-Persistence-Best-Practices/dp/1484256255)(Apress, 2020) 도서에 대한 예제 코드를 정리해 제공합니다.
+본 리포지토리는 안겔 레오나르드(Anghel Leonard)의 [스프링 부트 JPA 모범사례 (에이콘출판사, 2024)](http://www.acornpub.co.kr/book/spring-boot-jpa)에 대한 예제 코드를 정리해 제공합니다.
 
-원서에서 제시되는 repoistory를 chapter별로 구분하고, Java 버전, 관련 프레임워크(Spring, Spring Boot, Hibernate, etc) 등을 일관성 있게 최근(최신 버전이 아닌)으로 변경하는 등의 정리를 제공합니다.
+
+> 원서 : [Spring Boot Persistence Best Practices: Optimize Java Persistence Performance in Spring Boot (Apress, 2020)](https://www.amazon.com/Spring-Boot-Persistence-Best-Practices/dp/1484256255)
+
+원서에서 제시되는 리포지토리를 챕터(chapter)별로 구분하고, Java 버전, 관련 프레임워크(Spring, Spring Boot, Hibernate, etc) 등을 일관성 있게 최근(최신 버전이 아닌)으로 변경하는 등의 정리를 제공합니다.
 
 
 ## 예제 구성
-저자가 제공하는 예제 repository 대비, 다음과 같은 차이점이 있습니다.
-- 예제를 chapter별 하위 디렉토리로 구성함으로써 손쉽게 예제를 찾을 수 있습니다.
+저자가 제공하는 예제 리포지토리 대비, 다음과 같은 차이점이 있습니다.
+- 예제를 챕터별 하위 디렉토리로 구성함으로써 손쉽게 예제를 찾을 수 있습니다.
 - Java 1.8, 12 등 여러 버전을 Java 11(LTS) 버전으로 통일했습니다. 
     - 참고로, 최신 LTS 17 버전은 제시된 Spring v5/Spring Boot v2에서 지원되지만, 일부 다른 관련 library 미지원 문제, Java EE 버전 일치(JDK 17은 Java EE에서 Jakarta EE로 변경) 등의 이유로 적용하지 않았습니다.
 - Spring Boot 버전을 v2.2.x에서 v2.7.x로 업그레이드했으며, 이에 따라 일부 설정 등도 맞춰 변경되었습니다.
@@ -99,7 +108,7 @@ sudo docker run --cap-add SYS_PTRACE -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=pa
 
 ## Chapter별 예제
 > **Note**  
-> 일부 예제 실행 시, 추가 설정 또는 참고가 필요한 사항은 아래 각 chapter별 페이지 기술함 
+> 일부 예제 실행 시, 추가 설정 또는 참고가 필요한 사항은 아래 각 챕터별 페이지 기술함 
 
 - [Chapter 1 : Associations](chapter1/README.md)
 - [Chapter 2 : Entities](chapter2/README.md)
@@ -122,6 +131,7 @@ sudo docker run --cap-add SYS_PTRACE -e "ACCEPT_EULA=1" -e "MSSQL_SA_PASSWORD=pa
     - [Appendix I : Second Level Cache](appendix/SecondLevelCache/README.md)
 
 ## 참조
+- 번역서 정보 : http://www.acornpub.co.kr/book/spring-boot-jpa
 - 원서 정보 : https://link.springer.com/book/10.1007/978-1-4842-5626-8
 - 원저자 예제 코드 : https://github.com/AnghelLeonard/Hibernate-SpringBoot (라이선스: Apache license v2.0)
 
