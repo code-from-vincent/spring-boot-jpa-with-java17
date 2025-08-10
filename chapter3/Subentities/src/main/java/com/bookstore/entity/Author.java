@@ -1,7 +1,7 @@
 package com.bookstore.entity;
 
-import javax.persistence.Id;
-import javax.persistence.Lob;
+import jakarta.persistence.Id;
+import jakarta.persistence.Lob;
 
 //@Entity
 public class Author {

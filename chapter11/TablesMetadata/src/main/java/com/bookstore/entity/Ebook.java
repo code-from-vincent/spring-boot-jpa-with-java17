@@ -1,7 +1,7 @@
 package com.bookstore.entity;
 
-import javax.persistence.Entity;
-import javax.persistence.PrimaryKeyJoinColumn;
+import jakarta.persistence.Entity;
+import jakarta.persistence.PrimaryKeyJoinColumn;
 import java.io.Serializable;
 
 @Entity

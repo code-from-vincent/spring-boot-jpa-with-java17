@@ -4,7 +4,7 @@ import com.bookstore.repository.AuthorRepository;
 
 import org.springframework.stereotype.Service;
 
-import javax.persistence.Tuple;
+import jakarta.persistence.Tuple;
 import java.util.List;
 
 @Service

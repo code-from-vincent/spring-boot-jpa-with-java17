@@ -4,9 +4,9 @@ import org.hibernate.Session;
 
 import org.springframework.stereotype.Repository;
 
-import javax.persistence.EntityManager;
-import javax.persistence.EntityManagerFactory;
-import javax.persistence.EntityTransaction;
+import jakarta.persistence.EntityManager;
+import jakarta.persistence.EntityManagerFactory;
+import jakarta.persistence.EntityTransaction;
 import java.io.Serializable;
 import java.util.logging.Level;
 import java.util.logging.Logger;

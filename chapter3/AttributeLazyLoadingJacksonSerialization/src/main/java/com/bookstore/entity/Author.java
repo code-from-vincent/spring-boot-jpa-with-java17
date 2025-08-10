@@ -2,7 +2,7 @@ package com.bookstore.entity;
 
 import com.fasterxml.jackson.annotation.JsonFilter;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.io.Serializable;
 
 @Entity

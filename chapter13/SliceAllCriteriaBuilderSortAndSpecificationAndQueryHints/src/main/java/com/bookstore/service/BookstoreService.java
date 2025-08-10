@@ -8,7 +8,7 @@ import org.springframework.data.domain.Slice;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.LockModeType;
+import jakarta.persistence.LockModeType;
 
 import static com.bookstore.service.AuthorSpecs.isAgeGt45;
 

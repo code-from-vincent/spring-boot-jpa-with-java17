@@ -2,7 +2,7 @@ package com.bookstore.converter;
 
 import com.bookstore.enums.GenreType;
 
-import javax.persistence.AttributeConverter;
+import jakarta.persistence.AttributeConverter;
 
 import static com.bookstore.enums.GenreType.ANTHOLOGY;
 import static com.bookstore.enums.GenreType.HISTORY;

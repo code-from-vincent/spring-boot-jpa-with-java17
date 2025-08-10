@@ -2,8 +2,8 @@ package com.bookstore.validation;
 
 import com.bookstore.entity.Review;
 
-import javax.validation.ConstraintValidator;
-import javax.validation.ConstraintValidatorContext;
+import jakarta.validation.ConstraintValidator;
+import jakarta.validation.ConstraintValidatorContext;
 import java.util.Objects;
 import java.util.stream.Stream;
 

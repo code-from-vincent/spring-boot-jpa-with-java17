@@ -5,7 +5,7 @@ import com.bookstore.repository.InventoryRepository;
 
 import org.springframework.stereotype.Service;
 
-import javax.transaction.Transactional;
+import jakarta.transaction.Transactional;
 
 @Service
 public class InventoryService {

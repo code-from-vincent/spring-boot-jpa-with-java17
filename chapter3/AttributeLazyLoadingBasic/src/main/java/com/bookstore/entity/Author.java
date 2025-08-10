@@ -1,6 +1,6 @@
 package com.bookstore.entity;
 
-import javax.persistence.*;
+import jakarta.persistence.*;
 import java.io.Serializable;
 
 @Entity

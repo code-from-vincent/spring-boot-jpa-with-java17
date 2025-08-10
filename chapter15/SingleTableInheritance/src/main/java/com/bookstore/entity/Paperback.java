@@ -1,8 +1,8 @@
 package com.bookstore.entity;
 
-import javax.persistence.DiscriminatorValue;
-import javax.persistence.Entity;
-import javax.validation.constraints.NotNull;
+import jakarta.persistence.DiscriminatorValue;
+import jakarta.persistence.Entity;
+import jakarta.validation.constraints.NotNull;
 import java.io.Serializable;
 
 @Entity

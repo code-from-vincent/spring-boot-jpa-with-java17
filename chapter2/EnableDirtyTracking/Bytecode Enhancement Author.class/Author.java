@@ -1,7 +1,7 @@
 package com.bookstore.entity;
 
 import java.util.Objects;
-import javax.persistence.Transient;
+import jakarta.persistence.Transient;
 import org.hibernate.bytecode.enhance.internal.tracker.DirtyTracker;
 import org.hibernate.engine.spi.EntityEntry;
 import org.hibernate.engine.spi.ManagedEntity;

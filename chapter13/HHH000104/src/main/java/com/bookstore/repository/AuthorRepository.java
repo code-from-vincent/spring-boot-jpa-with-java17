@@ -12,8 +12,8 @@ import org.springframework.data.jpa.repository.QueryHints;
 import org.springframework.stereotype.Repository;
 import org.springframework.transaction.annotation.Transactional;
 
-import javax.persistence.QueryHint;
-import javax.persistence.Tuple;
+import jakarta.persistence.QueryHint;
+import jakarta.persistence.Tuple;
 import java.util.List;
 
 import static org.hibernate.jpa.QueryHints.HINT_PASS_DISTINCT_THROUGH;
